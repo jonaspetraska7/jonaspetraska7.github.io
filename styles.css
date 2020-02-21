@@ -26,8 +26,7 @@ header {
   top: 0;
   bottom: 0;
   display: flex;
-  width: 90%vmax;
-  margin-left: 5vmin;
+  margin-left: 3vmin;
   border-bottom: 2px solid #cccccc;
   background: #dddddd;
   margin-top: -8px;
@@ -44,25 +43,28 @@ header {
 	border-bottom: 5px solid #cccccc;
 }
 .intro_side {
-  background-color: darkgoldenrod;
+  /*background-color: darkgoldenrod;*/
   position: fixed;
-  margin-top: -11.5vmin;
-  margin-left: 5vmin;
-  background-color: lightcoral;
+  margin-bottom: -11.5vmin;
+  margin-top: -11.20vmin;
+  margin-left: 3vmin;
+  /*background-color: lightcoral;*/
+  font-size: 3vmin;
+
+  
 }
 .this_is_me {
-  /*width: max-content;
-  margin-top: 3%;*/
-  font-size: 3.2vmin;
-  line-height: 135%;
-  background-color: lightblue;
+  display: flex;
+  width: 45vmin;
+  height: auto;
+  margin-bottom: 10vmin;
+
 }
 .introduction {
   /*width: max-content;
   margin-top: 3%;*/
-  font-size: 3.2vmin;
   line-height: 135%;
-  background-color: lawngreen;
+  /*background-color: lawngreen;*/
 }
 /*@media screen and (min-width: 900px) {
   .introduction {
@@ -75,21 +77,20 @@ header {
 .half {
   display:flex;
   align-items:center;
-  background-color: cyan;
+  background-color: #dddddd;
 }
 .project_side {
   margin-left: 52vmin;
   display: flex;
   flex-grow: 1;
   margin-top: 5vmin;
-  background-color: crimson;
   height: 100vh;
-  
+  /*background-color: crimson;*/
 }
 .table {
   display: flex;
   flex: 1;
-  background-color: blue;
+  background-color: #dddddd;
   margin: 0.5% 0.5% 0.5% 0.5%;
   flex-wrap: wrap;
 }
@@ -100,10 +101,11 @@ header {
 }
 .object {
   min-width: 40vmin;
+  min-height: 38vmin;
   margin: 0.1vmin 0.1vmin 0.1vmin 0.1vmin;
   flex: 1 1 40%;
-  color: white;
-  background-color: darkgreen;
+  color: #eeeeee;
+  background-color: #bbbbbb;
   text-align: center;
   display:flex;
   justify-content:center;
@@ -120,7 +122,7 @@ header {
   justify-content:center;
   bottom: 0;
   z-index: 2;
-  height: 50px;
+  height: 5vmin;
 }
 
 
