@@ -19,14 +19,15 @@
 }
 .background {
   background: #dddddd;
+  margin-bottom: -8px;
 }
 header {
   position: sticky;
   top: 0;
   bottom: 0;
   display: flex;
-  width: 96%;
-  margin-left: 4%;
+  width: 90%vmax;
+  margin-left: 5vmin;
   border-bottom: 2px solid #cccccc;
   background: #dddddd;
   margin-top: -8px;
@@ -42,62 +43,50 @@ header {
   border-left: 12px solid #cccccc;
 	border-bottom: 5px solid #cccccc;
 }
-.colortext {
+.intro_side {
   background-color: darkgoldenrod;
-  position: sticky;
-  top: 150px;
-  /*bottom: 13%;*/
-  align-self: flex-start; 
-  margin-left: 4%;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  padding-right: 1%;
+  position: fixed;
+  margin-top: -11.5vmin;
+  margin-left: 5vmin;
+  background-color: lightcoral;
 }
-.first_word {
-  font-size: 8vw;
-}
-.second_word {
-  margin-top: -6%;
-  margin-left: 27%;
-  font-size: 4vw;
-}
-.third_word {
-  margin-top: -18%;
-  margin-left: 38%;
-  font-size: 8vw;
+.this_is_me {
+  /*width: max-content;
+  margin-top: 3%;*/
+  font-size: 3.2vmin;
+  line-height: 135%;
+  background-color: lightblue;
 }
 .introduction {
-  width: max-content;
-  margin-top: 3%;
-  margin-left: 3%;
-  font-size: 1.5vw;
+  /*width: max-content;
+  margin-top: 3%;*/
+  font-size: 3.2vmin;
   line-height: 135%;
   background-color: lawngreen;
 }
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1000px) {
+/*@media screen and (min-width: 900px) {
   .introduction {
-    margin-top: 3%;
-    margin-left: 3%;
-    font-size: 12pt;
-    line-height: 135%;
+    font-size: 15px;
   }
-}
+  .this_is_me {
+    font-size: 15px;
+  }
+}*/
 .half {
-  display: flex;
+  display:flex;
+  align-items:center;
   background-color: cyan;
 }
 .project_side {
-  margin-left: 2vh;
+  margin-left: 52vmin;
   display: flex;
   flex-grow: 1;
-  margin-top: 10%;
+  margin-top: 5vmin;
   background-color: crimson;
   height: 100vh;
   
 }
-.left {
+.table {
   display: flex;
   flex: 1;
   background-color: blue;
@@ -110,8 +99,8 @@ header {
   
 }
 .object {
-  min-width: 20vh;
-  margin: 0.1% 0.1% 0.1% 0.1%;
+  min-width: 40vmin;
+  margin: 0.1vmin 0.1vmin 0.1vmin 0.1vmin;
   flex: 1 1 40%;
   color: white;
   background-color: darkgreen;
@@ -121,7 +110,17 @@ header {
   align-items:center;
 }
 .t {
-  font-size: 7vw;
+  font-size: 7vmax;
+}
+.foot {
+  background-color: #dddddd;
+  position: sticky;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  bottom: 0;
+  z-index: 2;
+  height: 50px;
 }
 
 
