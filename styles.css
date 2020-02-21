@@ -25,6 +25,7 @@ header {
   position: sticky;
   top: 0;
   bottom: 0;
+  width: 100%;
   display: flex;
   margin-left: 3vmin;
   border-bottom: 2px solid #cccccc;
@@ -112,7 +113,7 @@ header {
   align-items:center;
 }
 .t {
-  font-size: 7vmax;
+  font-size: 7vw;
 }
 .foot {
   background-color: #dddddd;
