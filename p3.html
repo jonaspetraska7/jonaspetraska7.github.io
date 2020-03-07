@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <script src="scripts.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" href="img/icon0.png"/>
+		<title>JP</title>
+	</head>
+	<body class="background" tabindex="1">
+        <header>
+            <div class="logo-container">
+                <a href="./index.html">
+                <img class="logo" src="img/logo.png" alt="logo">
+            </a>
+            </div>
+        </header>
+        <div class="page">
+            <a href="./index.html">
+                <div class="circle_side text shade4">
+                    <div class="circle">
+                        GO
+                    </div>
+                </div>
+            </a>
+
+            <div class="info_side text">
+                <div class="info_head">
+                    Parallel programming with GO
+                </div>
+                <div class="learn_holder">
+                    <div class="info_learned">
+                        <div class="learned">
+                            Stack :
+                        </div>
+                        <div class="learned">
+                            GO
+                        </div>
+                        <div class="learned">
+                            GoLand
+                        </div>
+                    </div>
+                    <div class="info_learned">
+                        <div class="learned">
+                            Learned :
+                        </div>
+                        <div class="learned">
+                            Parallel programming concepts and implementation
+                        </div>
+                        <div class="learned">
+                            
+                        </div>
+                    </div>
+                    <br>
+                    <a href="https://github.com/jonaspetraska7/GO-Parallel-programming" class="gts">
+                    <div class="info_learned">
+                        <div class="gt">
+                            <img style="width: 1.5vw; height: auto;" src="img/git.png" alt="git">
+                            View on github 
+                        </div>
+                    </div>
+                    </a>
+                    <br>
+                    
+                </div>
+                
+                <div class="info">
+                    <div class="texto">
+                        The program is written to Read a JSON file to a custom structure
+                        which has the Name, Age, Salary and a HasCode parameters. 
+                    </div>
+                    <img class="proj_pics2" src="img/go/1.png" alt="1">
+                </div>
+                <div class="info">
+                    <div class="texto">
+                        From there the program puts items in a Data Thread which
+                        creates workloads for each thread in the systems thus balancing the workloads
+                        and improving running time. 
+                    </div>
+                    <img class="proj_pics2" src="img/go/2.png" alt="2">
+                </div>
+                <div class="info">
+                    <div class="texto">
+                        The worker threads get data items from the distributor, in our case 
+                        the DataThread and then processes the elements (calculates hashcode) in parallel to themselves and
+                        the main program. 
+                    </div>
+                    <img class="proj_pics2" src="img/go/3.png" alt="3">
+                </div>
+                <div class="info">
+                    <div class="texto">
+                        Finally the ResultThread gets the data items from each thread 
+                        and then sends it back to the main channel which then then waits
+                        for all threads to finish and proceeds to print out the results.
+                    </div>
+                    <img class="proj_pics2" src="img/go/4.png" alt="4">
+                </div>
+                <div class="info">
+                    <div class="texto">
+                        The threads close themselves after they have processed all the items
+                        at their disposal and due to the balanced workload they only
+                        close when the workload reaches zero. This saves time as each thread
+                        is utilized.
+                    </div>
+                    <img class="proj_pics2" src="img/go/5.png" alt="5">
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
