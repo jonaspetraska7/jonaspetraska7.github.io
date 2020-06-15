@@ -78,6 +78,10 @@ header {
   -webkit-animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+.o5 {
+  -webkit-animation: scale-up-center 1.0s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
 .table {
   display: flex;
   flex: 1;
